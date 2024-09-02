@@ -10,7 +10,11 @@
     "test": "jest"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.53.2",
+    "@tanstack/react-query-devtools": "^5.53.2",
+    "axios": "^1.7.7",
     "react": "18.3.1",
+    "react-hook-form": "^7.53.0",
     "react-native": "0.75.2"
   },
   "devDependencies": {
@@ -21,6 +25,7 @@
     "@react-native/eslint-config": "0.75.2",
     "@react-native/metro-config": "0.75.2",
     "@react-native/typescript-config": "0.75.2",
+    "@tanstack/eslint-plugin-query": "^5.53.0",
     "@types/react": "^18.2.6",
     "@types/react-test-renderer": "^18.0.0",
     "babel-jest": "^29.6.3",
